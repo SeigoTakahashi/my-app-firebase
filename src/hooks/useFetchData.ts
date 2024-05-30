@@ -15,3 +15,7 @@ export const useFetchData = <T>(url: string, type: T): { data: T } => {
     // データを返す
     return { data };
 };
+
+export const useFetchDataArr = <T>(): T => {
+    return {} as T;
+}

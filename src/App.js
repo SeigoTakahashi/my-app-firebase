@@ -53,8 +53,9 @@ const App = () => {
                     {/* <Title1 h1text={"HelloWorld"} h1style={styleSheet} divstyle={styleSheet2}>
                         <li>Slick Back</li>
                     </Title1>
-                    <h1 style={{ color: 'red', fontSize: "50px" }}>Hello World</h1>
-                    <p style={styleSheet}>App.jsx</p> */}
+                    <h1 style={{ color: 'red', fontSize: "50px" }}>Hello World</h1> */}
+                    <p style={styleSheet}>App.jsx</p>
+                    <Title1 a={1}></Title1>
                     {router.browserRouter}
                 </main>
             </AuthContextProvider>
